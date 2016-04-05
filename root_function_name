@@ -1,0 +1,3 @@
+gaus. A gaussian with 3 parameters: f(x) = p0*exp(-0.5*((x-p1)/p2)^2)).
+expo. An exponential with 2 parameters: f(x) = exp(p0+p1*x).
+polN. a polynomial of degree N: f(x) = p0 + p1*x + p2*x^2 +...
