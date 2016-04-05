@@ -1,0 +1,2 @@
+TF1 *f1 = new TF1("f1","abs(sin(x)/x)*sqrt(x)",0,10);
+double r = f1->GetRandom();
