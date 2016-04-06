@@ -1,0 +1,14 @@
+TCanvas *c=new TCanvas(" "," ",1000,800);
+   
+
+c->Divide(2,2,0.01,0.01,0);
+
+
+c->cd(1);
+   TPad *grid = new TPad("grid","",0,0,1,1); 
+   grid->Draw();
+   grid->cd();
+   grid->SetGrid();
+   grid->SetFillStyle(4000); 
+
+ htemp->GetXaxis()->SetTitle("lastR/m");
