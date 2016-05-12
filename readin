@@ -1,0 +1,2 @@
+ifstream readin;
+readin.open("absc.txt");
