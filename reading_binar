@@ -1,0 +1,9 @@
+ifstream fin("H:\Run_66_0.bin",ios::binary);
+fin.read((char*)&fileheader,8);
+ fin.read((char*)&result,1);	
+  fin.read((char*)&id,4);
+   fin.read((char*)&board,4);
+   fin.read((char*)&channel,4);
+     fin.read((char*)&timestamp,8);
+     fin.read((char*)&wlength,4);
+	 fin.read((char*)wf,wlength*2);
